@@ -33,9 +33,9 @@ python3 scripts/restore_assets.py --download
 python3 scripts/verify_assets.py
 ```
 
-這會從本專案的 `v2026.10.04` Release 下載三個包，先核對整包與每個檔案，再恢復大型資產。預設不覆蓋已被修改的檔案。
+這會從本專案的 `v2026.10.04-backup` Release 下載 24 個分段並自動合併為三個包，先核對整包與每個檔案，再恢復大型資產。預設不覆蓋已被修改的檔案。
 
-也可以手動下載 Releases 中的 `websites.zip`、`originals.zip`、`editable.zip`，放入 `downloads/` 後執行 `python3 scripts/restore_assets.py`。
+也可以將 Releases 中的全部 `.part-*` 分段放入 `downloads/` 後執行 `python3 scripts/restore_assets.py`。
 
 ## 本機查看
 

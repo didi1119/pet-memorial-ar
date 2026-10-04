@@ -4,20 +4,146 @@
     "bytes": 199513707,
     "sha256": "f4c109874a6b723db8509eaa5a2e591eadb082e53d7118e89fb807c9581a8fd0",
     "entries": 47,
-    "CRC_and_entry_hashes_passed": true
+    "CRC_and_entry_hashes_passed": true,
+    "parts": [
+      {
+        "name": "websites.zip.part-001",
+        "bytes": 67108864,
+        "sha256": "14b2072eb277f6aa4bab18fea5e85a9385039cf151ef49558dc3b66150447f66"
+      },
+      {
+        "name": "websites.zip.part-002",
+        "bytes": 67108864,
+        "sha256": "2ce713280a0ee82e17d7fe7905d073bc5fdd0210a5dc5844bc9d298e87d7615f"
+      },
+      {
+        "name": "websites.zip.part-003",
+        "bytes": 65295979,
+        "sha256": "f71b84ae92b05bd96fa9bf0f3c364b1f8639832ffdde84d3b29d147175883c4a"
+      }
+    ]
   },
   {
     "name": "originals.zip",
     "bytes": 302809650,
     "sha256": "e8b3ef8597e3bbc48462ad49af42f8b7c9c62e4b3782d4cbc53e7cecceaa23bd",
     "entries": 10,
-    "CRC_and_entry_hashes_passed": true
+    "CRC_and_entry_hashes_passed": true,
+    "parts": [
+      {
+        "name": "originals.zip.part-001",
+        "bytes": 67108864,
+        "sha256": "3df365abd46cc0af71f474359b6c9b7eaa500c3d0e53b42f5015f68de6d659ab"
+      },
+      {
+        "name": "originals.zip.part-002",
+        "bytes": 67108864,
+        "sha256": "3fc5c0cf27a0f3c978fb95038e1e74ab32bafd1dc3c570656d2297c27e61796d"
+      },
+      {
+        "name": "originals.zip.part-003",
+        "bytes": 67108864,
+        "sha256": "5903103fc11419af9d1ac0ea7cc58390ac36192a004868afb022832321ee8a77"
+      },
+      {
+        "name": "originals.zip.part-004",
+        "bytes": 67108864,
+        "sha256": "d7dd2a8019bed497e7b715eebed352636b45ccbb474e76a498c7953d4c645905"
+      },
+      {
+        "name": "originals.zip.part-005",
+        "bytes": 34374194,
+        "sha256": "69e0e3fa0d975fff96db17331085ec7e809dc180d6cb4c1ab59797526ca026cd"
+      }
+    ]
   },
   {
     "name": "editable.zip",
     "bytes": 1028434056,
     "sha256": "c8a9c281dc4e7763d1c06f13da733eb02f27cb531a83710e47ac117243062489",
     "entries": 45,
-    "CRC_and_entry_hashes_passed": true
+    "CRC_and_entry_hashes_passed": true,
+    "parts": [
+      {
+        "name": "editable.zip.part-001",
+        "bytes": 67108864,
+        "sha256": "881041bf2b4876ee66adf07df9acabf7ad5449a9560bcb905c47f1bae5426d2d"
+      },
+      {
+        "name": "editable.zip.part-002",
+        "bytes": 67108864,
+        "sha256": "bd9fc3fcc23eaa8c7bf48f160dfef350640d7fc3a1703d81d5a947eacbeac018"
+      },
+      {
+        "name": "editable.zip.part-003",
+        "bytes": 67108864,
+        "sha256": "7680959776cd551e163dc8c1b4ea74b4ed071e84cd052d0b52980b56776e82fa"
+      },
+      {
+        "name": "editable.zip.part-004",
+        "bytes": 67108864,
+        "sha256": "8614d73a01d5fbafd632f954dd2a9d6f1f12822ce36e43671373c219ffe0f23e"
+      },
+      {
+        "name": "editable.zip.part-005",
+        "bytes": 67108864,
+        "sha256": "59c5ff4b97fd814da91b2f1727468545b9aedc2b33062c7880a7774658ce39ba"
+      },
+      {
+        "name": "editable.zip.part-006",
+        "bytes": 67108864,
+        "sha256": "1f4b9002783e5f762f33a070ba1a2cd16d4e58a7b7833bb50e21ed6a6d935127"
+      },
+      {
+        "name": "editable.zip.part-007",
+        "bytes": 67108864,
+        "sha256": "435c556f15fbdeb32da656343bf46ab93bf04c7bb5ea54fabdb0120cc1cae460"
+      },
+      {
+        "name": "editable.zip.part-008",
+        "bytes": 67108864,
+        "sha256": "7f3f59690c1f35821930842b22a698b22eff144dc6a8bbec487187818fb56407"
+      },
+      {
+        "name": "editable.zip.part-009",
+        "bytes": 67108864,
+        "sha256": "dcc0e5ff1ef380ffc3aa8a20c54edb3f8fba1d1069ea101f4a0df1fb0f35087f"
+      },
+      {
+        "name": "editable.zip.part-010",
+        "bytes": 67108864,
+        "sha256": "18d3b13b911383e22b1307c668ec849229d418f72fda5a108b6fe95b8dd82a34"
+      },
+      {
+        "name": "editable.zip.part-011",
+        "bytes": 67108864,
+        "sha256": "02211be5239e69ff7aabf09cebd091bab1535ab7a8c176cec676f78f0363e1c3"
+      },
+      {
+        "name": "editable.zip.part-012",
+        "bytes": 67108864,
+        "sha256": "9dd0b13ab6b6d1e04d5c7ba72f5d7427c25413e40e9528d9eb64d4e5ec8fe6ac"
+      },
+      {
+        "name": "editable.zip.part-013",
+        "bytes": 67108864,
+        "sha256": "b9445d51a697b34517b04f74c98329b7705af3518a4d2d368bc9f7df8da93065"
+      },
+      {
+        "name": "editable.zip.part-014",
+        "bytes": 67108864,
+        "sha256": "ae6c20c94cfb8eb5a4ff7744d1c086634d3db13af3e4639aa2fb562b2fe3e8d9"
+      },
+      {
+        "name": "editable.zip.part-015",
+        "bytes": 67108864,
+        "sha256": "6b63518095754644c5b9a7032f61bc7694d5a7288fefb0bbeed54dac3d8fe8a1"
+      },
+      {
+        "name": "editable.zip.part-016",
+        "bytes": 21801096,
+        "sha256": "fc4cd679b1faed304f530ee45ceea6a50d70b6d8752ca678e3d70557fc7d5f5e"
+      }
+    ]
   }
 ]
