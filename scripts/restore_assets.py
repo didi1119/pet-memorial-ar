@@ -10,7 +10,7 @@ def safe_target(root,name):
  target=root.joinpath(*path.parts)
  if not target.resolve().is_relative_to(root.resolve()):raise ValueError(f'Path escapes asset library: {name}')
  return target
-RELEASE='v2026.10.04-backup'
+RELEASE='v2026.10.04-backup-r2'
 def fetch_part(folder,part):
  p=safe_target(folder,part['name'])
  if not p.exists():
