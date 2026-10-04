@@ -15,3 +15,7 @@
 ## 2026-10-04 雲端核對
 
 全部 184 個分段已存入私人 GitHub Release，伺服器回傳的 SHA-256 與本機清單逐段一致。三個完整 ZIP 的合併、CRC 與內部檔案雜湊已在本機驗證；可編輯模型也已從 GitHub 實際重新下載並核對。詳見 `verification/cloud-backup-check.json`。原始檔與可編輯檔未進行全庫重下載測試，核對依據為全部分段的伺服器 SHA-256。
+
+兩個網站已在乾淨的 GitHub 副本實際重新下載並恢復，47 個網站檔案及 48 個製作路徑別名全部核對一致。詳見 `verification/website-cloud-recovery-check.json`。
+
+下載若因網路中斷而停止，可移走 `downloads/` 中未通過雜湊核對的分段，再重新執行；已核對的分段可繼續使用。這不需要刪除或改動原始模型。
