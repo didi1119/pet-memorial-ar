@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-04T14:33:00.737454+00:00",
+  "repository": "https://github.com/didi1119/pet-memorial-ar",
+  "visibility": "private",
+  "release": "https://github.com/didi1119/pet-memorial-ar/releases/tag/v2026.10.04-backup-r2",
+  "verified_part_count": 184,
+  "total_backup_bytes": 1530757413,
+  "all_server_sha256_match": true,
+  "local_full_archive_assembly_verified": true,
+  "local_catalog_files_verified": 211,
+  "authoring_aliases_verified": 48,
+  "github_download_sample": {
+    "github_download_verified": true,
+    "file": "pose-01-ambient-v7.blend",
+    "bytes": 23186582,
+    "sha256": "44ee0ae6f9e7cbc5285928f2b0c424f7fc5a662ef6ab0d576b40788f47ddfee4"
+  },
+  "full_cloud_recovery_tested": false,
+  "live_sites_changed": false
+}
