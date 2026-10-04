@@ -1,0 +1,208 @@
+{
+  "poses": {
+    "pose-02": {
+      "amplitudes": {
+        "chest_width_pct": 3.2,
+        "chest_height_pct": 1.6,
+        "head_deg": 3.5,
+        "ear_left_deg": 6.0,
+        "ear_right_deg": 5.5,
+        "tail_deg": 0
+      },
+      "face_gates": [
+        {
+          "axis": 2,
+          "lo": 0.175,
+          "hi": 0.195,
+          "direction": "increasing"
+        },
+        {
+          "axis": 1,
+          "lo": 0.045,
+          "hi": 0.08,
+          "direction": "decreasing"
+        },
+        {
+          "axis": 0,
+          "lo": 0.015,
+          "hi": 0.045,
+          "direction": "increasing"
+        },
+        {
+          "axis": 0,
+          "lo": 0.225,
+          "hi": 0.25,
+          "direction": "decreasing"
+        }
+      ],
+      "protected_gates": [
+        [
+          {
+            "axis": 2,
+            "lo": 0.075,
+            "hi": 0.1,
+            "direction": "decreasing"
+          }
+        ]
+      ],
+      "notes": "Reclining body spans X; face is X-positive. Rigid face gate must not select the rear torso. Protect all low geometry to retain wrapped tail and extended paw bases."
+    },
+    "pose-03": {
+      "amplitudes": {
+        "chest_width_pct": 3.2,
+        "chest_height_pct": 1.6,
+        "head_deg": 3.5,
+        "ear_left_deg": 6.0,
+        "ear_right_deg": 5.5,
+        "tail_deg": 0
+      },
+      "face_gates": [
+        {
+          "axis": 2,
+          "lo": 0.28,
+          "hi": 0.305,
+          "direction": "increasing"
+        },
+        {
+          "axis": 1,
+          "lo": -0.115,
+          "hi": -0.08,
+          "direction": "decreasing"
+        }
+      ],
+      "protected_gates": [
+        [
+          {
+            "axis": 2,
+            "lo": 0.075,
+            "hi": 0.1,
+            "direction": "decreasing"
+          }
+        ]
+      ],
+      "notes": "Front face saturates above chin, transition restricted to front neck; wrapped tail beside feet remains static."
+    },
+    "pose-04": {
+      "amplitudes": {
+        "chest_width_pct": 3.2,
+        "chest_height_pct": 1.6,
+        "head_deg": 3.5,
+        "ear_left_deg": 6.0,
+        "ear_right_deg": 5.5,
+        "tail_deg": 0
+      },
+      "face_gates": [
+        {
+          "axis": 2,
+          "lo": 0.18,
+          "hi": 0.205,
+          "direction": "increasing"
+        },
+        {
+          "axis": 1,
+          "lo": -0.115,
+          "hi": -0.08,
+          "direction": "decreasing"
+        }
+      ],
+      "protected_gates": [
+        [
+          {
+            "axis": 2,
+            "lo": 0.075,
+            "hi": 0.1,
+            "direction": "decreasing"
+          }
+        ]
+      ],
+      "notes": "Tilted skull has unequal ear heights already in landmarks. Saturate face through lower jaw, keep each original ear pivot/fade, and protect tucked paws and resting tail."
+    },
+    "pose-05": {
+      "amplitudes": {
+        "chest_width_pct": 3.2,
+        "chest_height_pct": 1.6,
+        "head_deg": 3.5,
+        "ear_left_deg": 6.0,
+        "ear_right_deg": 5.5,
+        "tail_deg": 0
+      },
+      "face_gates": [
+        {
+          "axis": 2,
+          "lo": 0.255,
+          "hi": 0.28,
+          "direction": "increasing"
+        },
+        {
+          "axis": 1,
+          "lo": -0.035,
+          "hi": 0.005,
+          "direction": "decreasing"
+        },
+        {
+          "axis": 0,
+          "lo": 0.115,
+          "hi": 0.14,
+          "direction": "decreasing"
+        }
+      ],
+      "protected_gates": [
+        [
+          {
+            "axis": 2,
+            "lo": 0.075,
+            "hi": 0.1,
+            "direction": "decreasing"
+          }
+        ],
+        [
+          {
+            "axis": 0,
+            "lo": 0.115,
+            "hi": 0.13,
+            "direction": "increasing"
+          },
+          {
+            "axis": 2,
+            "lo": 0.18,
+            "hi": 0.225,
+            "direction": "increasing"
+          },
+          {
+            "axis": 2,
+            "lo": 0.325,
+            "hi": 0.355,
+            "direction": "decreasing"
+          }
+        ]
+      ],
+      "notes": "Keep distal raised arm and paw on Root together; broad 35 mm X and 45 mm shoulder-height feather avoids an abrupt frozen wrist. Face selection excludes X-positive raised paw. Arm remains in its supplied gesture, rather than rotating with the cheek."
+    },
+    "pose-06": {
+      "amplitudes": {
+        "chest_width_pct": 3.2,
+        "chest_height_pct": 1.6,
+        "head_deg": 3.5,
+        "ear_left_deg": 6.0,
+        "ear_right_deg": 5.5,
+        "tail_deg": 6.0
+      },
+      "face_gates": [
+        {
+          "axis": 2,
+          "lo": 0.085,
+          "hi": 0.105,
+          "direction": "increasing"
+        },
+        {
+          "axis": 1,
+          "lo": -0.13,
+          "hi": -0.1,
+          "direction": "decreasing"
+        }
+      ],
+      "protected_gates": [],
+      "notes": "Head is low and forward; Y gate excludes raised curl tail entirely. Keep original floor fade for grounded legs; localized head ellipse and Y saturation must not spread to rear tail."
+    }
+  }
+}

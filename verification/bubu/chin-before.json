@@ -1,0 +1,23 @@
+{
+  "chin_vertices": 5972,
+  "chin_head_weight_min": 0.20779019594192505,
+  "chin_head_weight_median": 1.0,
+  "frames": [
+    {
+      "frame": 1,
+      "jaw_to_muzzle_max_error_mm": 0.0
+    },
+    {
+      "frame": 111,
+      "jaw_to_muzzle_max_error_mm": 4.375817086818056
+    },
+    {
+      "frame": 373,
+      "jaw_to_muzzle_max_error_mm": 3.981341189539939
+    },
+    {
+      "frame": 637,
+      "jaw_to_muzzle_max_error_mm": 1.3462606751425132
+    }
+  ]
+}

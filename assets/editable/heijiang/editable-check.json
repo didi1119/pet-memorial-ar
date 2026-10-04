@@ -1,0 +1,56 @@
+[
+  {
+    "pose": "pose-01",
+    "source_glb": "poses/pose-01.9428761f7c33.glb",
+    "saved_blend": "pose-01-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  },
+  {
+    "pose": "pose-02",
+    "source_glb": "poses/pose-02.df2c7cb32982.glb",
+    "saved_blend": "pose-02-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  },
+  {
+    "pose": "pose-03",
+    "source_glb": "poses/pose-03.4e6ebabf08ba.glb",
+    "saved_blend": "pose-03-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  },
+  {
+    "pose": "pose-04",
+    "source_glb": "poses/pose-04.d338e0ee95f7.glb",
+    "saved_blend": "pose-04-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  },
+  {
+    "pose": "pose-05",
+    "source_glb": "poses/pose-05.a4b5d268f57b.glb",
+    "saved_blend": "pose-05-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  },
+  {
+    "pose": "pose-06",
+    "source_glb": "poses/pose-06.422cc06f3796.glb",
+    "saved_blend": "pose-06-ambient-v7.blend",
+    "packed_textures": true,
+    "reopened": true,
+    "duration_seconds": 32,
+    "note": "Imported editable copy; original published GLB/USDZ unchanged"
+  }
+]

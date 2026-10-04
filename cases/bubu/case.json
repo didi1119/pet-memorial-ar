@@ -1,0 +1,17 @@
+{
+  "id": "bubu",
+  "pet_name": "布布",
+  "owners": [
+    "Tiffany",
+    "Jeremy"
+  ],
+  "public_url": "https://bubu-always-here.pages.dev/",
+  "approved_asset_version": 3,
+  "pose_count": 3,
+  "default_pose": "pose-01",
+  "animation_seconds": 32,
+  "physical_phone_AR_verified": false,
+  "pose_manifest": "site/poses.json",
+  "status": "approved_existing_case",
+  "assets_owner_statement": "User declared these project assets as their assets on 2026-10-04."
+}

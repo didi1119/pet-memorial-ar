@@ -1,0 +1,16 @@
+{
+  "asset_version": 3,
+  "url": "https://bubu-always-here.pages.dev/",
+  "all_three_poses_loaded": true,
+  "seated_src": "poses/pose-03.4033e63c6c30.glb",
+  "belly_src": "poses/pose-02.23fc6f4ee113.glb",
+  "belly_orbit": "-80deg 40deg 95%",
+  "reset_after_drag_verified_locally": true,
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844,
+    "full_dog_visible": true
+  },
+  "errors": [],
+  "physical_phone_AR_verified": false
+}

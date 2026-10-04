@@ -1,0 +1,17 @@
+{
+  "id": "heijiang",
+  "pet_name": "黑醬",
+  "owners": [
+    "琦琦",
+    "蓓蓓"
+  ],
+  "public_url": "https://heijiang-always-here.pages.dev/",
+  "approved_asset_version": 7,
+  "pose_count": 6,
+  "default_pose": "pose-01",
+  "animation_seconds": 32,
+  "physical_phone_AR_verified": false,
+  "pose_manifest": "site/poses.json",
+  "status": "approved_existing_case",
+  "assets_owner_statement": "User declared these project assets as their assets on 2026-10-04."
+}

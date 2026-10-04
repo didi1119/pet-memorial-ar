@@ -1,0 +1,26 @@
+{
+  "name": "布布・在身邊",
+  "owners": [
+    "Tiffany",
+    "Jeremy"
+  ],
+  "url": "https://bubu-always-here.pages.dev/",
+  "provider": "Cloudflare Pages Free",
+  "project": "bubu-always-here",
+  "deployment_id": "1139d86d-a868-48fe-8a4c-b7362e8a512e",
+  "deployment_url": "https://1139d86d.bubu-always-here.pages.dev",
+  "pose_count": 3,
+  "public_files_verified": 18,
+  "all_public_hashes_match": true,
+  "phone_AR_tested": false,
+  "paid_services_enabled": false,
+  "heijiang_site_changed": false,
+  "motion": "32-second loop; complete muzzle and hanging chin move rigidly with skull; head yaw amplitude unchanged",
+  "range_support": false,
+  "asset_version": 3,
+  "head_neck_regression_passed": true,
+  "strict_ARKit_passed": true,
+  "belly_initial_camera_orbit": "-80deg 40deg 95%",
+  "chin_regression_passed": true,
+  "camera_reset_regression_passed": true
+}

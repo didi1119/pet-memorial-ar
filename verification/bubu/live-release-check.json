@@ -1,0 +1,193 @@
+{
+  "url": "https://bubu-always-here.pages.dev/",
+  "provider": "Cloudflare Pages",
+  "public_without_GPT_login": true,
+  "asset_version": 3,
+  "pose_count": 3,
+  "all_live_release_files_match": true,
+  "verified_files": 18,
+  "model_count": 6,
+  "phone_AR_tested": false,
+  "files": [
+    {
+      "path": "app.1a22cb9d95d7.js",
+      "status": 200,
+      "bytes": 11733,
+      "sha256_matches": true,
+      "content_type": "application/javascript",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 5912,
+      "sha256_matches": true,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-cache",
+      "edge_cache": null
+    },
+    {
+      "path": "licenses/Lit-BSD.txt",
+      "status": 200,
+      "bytes": 1561,
+      "sha256_matches": true,
+      "content_type": "text/plain; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "edge_cache": null
+    },
+    {
+      "path": "licenses/Threejs-MIT.txt",
+      "status": 200,
+      "bytes": 1081,
+      "sha256_matches": true,
+      "content_type": "text/plain; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "edge_cache": null
+    },
+    {
+      "path": "licenses/model-viewer-bundled-notices.txt",
+      "status": 200,
+      "bytes": 184,
+      "sha256_matches": true,
+      "content_type": "text/plain; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "edge_cache": null
+    },
+    {
+      "path": "model-viewer-LICENSE.txt",
+      "status": 200,
+      "bytes": 11358,
+      "sha256_matches": true,
+      "content_type": "text/plain; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "edge_cache": null
+    },
+    {
+      "path": "model-viewer.min.283b06723846.js",
+      "status": 200,
+      "bytes": 1068903,
+      "sha256_matches": true,
+      "content_type": "application/javascript",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-01.201bb8bd5459.usdz",
+      "status": 200,
+      "bytes": 14272625,
+      "sha256_matches": true,
+      "content_type": "model/vnd.usdz+zip",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-01.a641badd6bc4.glb",
+      "status": 200,
+      "bytes": 11833456,
+      "sha256_matches": true,
+      "content_type": "model/gltf-binary",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-01.d961f362ade8.jpg",
+      "status": 200,
+      "bytes": 17099,
+      "sha256_matches": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-02.201b1303ec27.jpg",
+      "status": 200,
+      "bytes": 24587,
+      "sha256_matches": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-02.23fc6f4ee113.glb",
+      "status": 200,
+      "bytes": 11134652,
+      "sha256_matches": true,
+      "content_type": "model/gltf-binary",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-02.553ed16dfb20.usdz",
+      "status": 200,
+      "bytes": 13483970,
+      "sha256_matches": true,
+      "content_type": "model/vnd.usdz+zip",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-03.3914445a8b22.jpg",
+      "status": 200,
+      "bytes": 24242,
+      "sha256_matches": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-03.4033e63c6c30.glb",
+      "status": 200,
+      "bytes": 11761760,
+      "sha256_matches": true,
+      "content_type": "model/gltf-binary",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses/pose-03.e24fe1fe02f6.usdz",
+      "status": 200,
+      "bytes": 13997823,
+      "sha256_matches": true,
+      "content_type": "model/vnd.usdz+zip",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    },
+    {
+      "path": "poses.json",
+      "status": 200,
+      "bytes": 4536,
+      "sha256_matches": true,
+      "content_type": "application/json",
+      "cache_control": "no-cache",
+      "edge_cache": null
+    },
+    {
+      "path": "style.3e9f950ec3cb.css",
+      "status": 200,
+      "bytes": 8944,
+      "sha256_matches": true,
+      "content_type": "text/css; charset=utf-8",
+      "cache_control": "public, max-age=31536000, immutable",
+      "edge_cache": null
+    }
+  ],
+  "range_checks": [
+    {
+      "path": "poses/pose-01.a641badd6bc4.glb",
+      "status": 200,
+      "partial_content_supported": false,
+      "content_range": null,
+      "magic_valid": true
+    },
+    {
+      "path": "poses/pose-01.201bb8bd5459.usdz",
+      "status": 200,
+      "partial_content_supported": false,
+      "content_range": null,
+      "magic_valid": true
+    }
+  ],
+  "range_limitation": "Cloudflare Pages returns complete 200 responses to Range requests; device AR remains unverified",
+  "range_reference": "https://developers.cloudflare.com/pages/configuration/serving-pages/"
+}

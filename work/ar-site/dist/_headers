@@ -1,0 +1,14 @@
+/poses/*.usdz
+  Content-Type: model/vnd.usdz+zip
+  Cache-Control: private, max-age=0, must-revalidate
+/poses/*.glb
+  Content-Type: model/gltf-binary
+  Cache-Control: private, max-age=0, must-revalidate
+/poses.json
+  Cache-Control: private, max-age=0, must-revalidate
+/index.html
+  Cache-Control: private, max-age=0, must-revalidate
+/app.js
+  Cache-Control: private, max-age=0, must-revalidate
+/style.css
+  Cache-Control: private, max-age=0, must-revalidate

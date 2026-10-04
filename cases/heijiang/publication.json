@@ -1,0 +1,32 @@
+{
+  "provider": "Cloudflare Pages",
+  "plan": "Free static hosting only",
+  "status": "published",
+  "public_access_approval": "explicit_user_approved_public_Cloudflare_Pages_memorial_and_six_models",
+  "project_create_executed": true,
+  "paid_services_enabled": false,
+  "model_and_animation_version": 7,
+  "preserved_model_count": 12,
+  "reference_checks_passed": true,
+  "new_url_verified": true,
+  "existing_GPT_site_changed": false,
+  "phone_AR_tested": false,
+  "automatic_approval_review": "approved_after_explicit_user_publication_consent",
+  "archive": {
+    "file": "/Users/kobee/Documents/Codex/2026-10-02/3d-ar/outputs/黑醬-免費獨立網站部署包.zip",
+    "bytes": 143288939,
+    "sha256": "8d2c9c42d8827f1e5e44ef208de58663a25b6ee8dd2a9191ce6e20c9a0d8a8fb",
+    "crc_and_all_entry_hashes_passed": true
+  },
+  "project_name": "heijiang-always-here",
+  "url": "https://heijiang-always-here.pages.dev/",
+  "deployment_url": "https://3c9a03dc.heijiang-always-here.pages.dev",
+  "deployment_id": "3c9a03dc-c2cb-49d1-8f9e-9b4c7a0506e2",
+  "production_branch": "main",
+  "verified_public_files": 27,
+  "live_file_hashes_match": true,
+  "browser_six_pose_switches_passed": true,
+  "browser_console_errors": 0,
+  "range_supported": false,
+  "range_http_status": 200
+}

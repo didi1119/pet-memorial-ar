@@ -1,0 +1,30 @@
+{
+  "id": "pose-01",
+  "duration_seconds": 32,
+  "bones": [
+    "Root",
+    "Chest",
+    "Neck",
+    "Head",
+    "EarLeft",
+    "EarRight",
+    "PawLeft",
+    "PawRight"
+  ],
+  "vertex_count": 83729,
+  "triangles": 119999,
+  "max_displacement_mm": 13.05301320365768,
+  "contact_displacement_mm": 0,
+  "face_shape_error_mm": 1.2685041267390673e-05,
+  "loop_error_mm": 0.0,
+  "head_yaw_deg": 6.5,
+  "head_lift_deg": 2.5,
+  "head_tilt_deg": 1.8,
+  "chest_width_pct": 3.0,
+  "raised_paw_motion": false,
+  "assumed_dimensions": true,
+  "animated_frames_checked": 769,
+  "face_vertices_checked": 14090,
+  "p99_max_edge_strain": 0.05603409745797069,
+  "motion_profile": "natural_neck_coupling_v2"
+}

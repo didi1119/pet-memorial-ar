@@ -1,0 +1,23 @@
+[
+  {
+    "name": "websites.zip",
+    "bytes": 199513707,
+    "sha256": "f4c109874a6b723db8509eaa5a2e591eadb082e53d7118e89fb807c9581a8fd0",
+    "entries": 47,
+    "CRC_and_entry_hashes_passed": true
+  },
+  {
+    "name": "originals.zip",
+    "bytes": 302809650,
+    "sha256": "e8b3ef8597e3bbc48462ad49af42f8b7c9c62e4b3782d4cbc53e7cecceaa23bd",
+    "entries": 10,
+    "CRC_and_entry_hashes_passed": true
+  },
+  {
+    "name": "editable.zip",
+    "bytes": 1028434056,
+    "sha256": "c8a9c281dc4e7763d1c06f13da733eb02f27cb531a83710e47ac117243062489",
+    "entries": 45,
+    "CRC_and_entry_hashes_passed": true
+  }
+]

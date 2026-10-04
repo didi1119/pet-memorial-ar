@@ -1,0 +1,20 @@
+/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/poses.json
+  Cache-Control: no-cache
+/poses/*
+  Cache-Control: public, max-age=31536000, immutable
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+/poses/*.glb
+  Content-Type: model/gltf-binary
+/poses/*.usdz
+  Content-Type: model/vnd.usdz+zip

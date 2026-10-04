@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f0e9">
+  <meta name="description" content="給琦琦與蓓蓓。想黑醬的時候，就來這裡，讓熟悉的身影再靠近一點。">
+  <title>黑醬・在身邊</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23f4f0e9'/%3E%3Cpath d='M7 15V7l7 5h4l7-5v8c0 10-18 10-18 0' fill='none' stroke='%237e6353' stroke-width='1.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=7">
+  <script type="module" src="model-viewer.min.js"></script>
+  <script defer src="app.js?v=7"></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <a class="wordmark" href="#" aria-label="黑醬，在身邊"><svg viewBox="0 0 34 34" aria-hidden="true" fill="none"><path d="M8 17V7l7 5h4l7-5v10c0 11-18 11-18 0Z"/><path d="m13 21 4 2 4-2M5 19l7 1m-7 4 7-2m17-3-7 1m7 4-7-2"/></svg><span>黑醬<span class="wordmark-note">在身邊</span></span></a>
+      <span class="dedication">給琦琦與蓓蓓</span>
+    </header>
+    <section class="hero" aria-labelledby="welcome">
+      <div class="letter">
+        <span class="eyebrow">有些陪伴，換一種方式繼續。</span>
+        <h1 id="welcome">想黑醬的時候，<br>就來這裡。</h1>
+        <p class="letter-text">那些一起度過的日子，<br>都留在心裡。<br><br>想牠的時候，<br>讓熟悉的身影，再靠近一點。</p>
+        <span class="letter-sign">一直被愛著的黑醬</span>
+      </div>
+      <div class="companion">
+        <section class="stage" aria-label="看看黑醬">
+          <model-viewer id="cat" loading="eager" reveal="auto" alt="黑醬，可以輕輕拖曳，從不同角度看看牠。" camera-controls camera-orbit="-45deg 78deg 105%" field-of-view="30deg" shadow-intensity="0.8" shadow-softness="1" environment-image="neutral" exposure="1" interaction-prompt="none" touch-action="pan-y" ar ar-modes="webxr quick-look" ar-placement="floor">
+            <span slot="ar-button" hidden></span><span slot="progress-bar"></span>
+            <div id="ar-switcher" class="ar-switcher" aria-label="換個樣子陪你" hidden></div>
+          </model-viewer>
+          <span id="load-status" class="load-status" role="status" aria-live="polite">黑醬正在靠近…</span>
+          <div id="error-panel" class="error-panel" hidden><p>黑醬的身影還沒有顯示出來。<br>我們再試一次，好嗎？</p><button id="reload" class="quiet-button">再試一次</button></div>
+        </section>
+        <div class="presence"><span class="presence-dot" aria-hidden="true"></span><span id="motion-status" role="status" aria-live="polite">等牠一下下…</span><span class="gesture">輕輕轉動，看看牠</span></div>
+        <section class="action" aria-label="讓黑醬來到身邊">
+          <button id="ar-button" class="primary" disabled><span id="ar-label">等黑醬準備好…</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          <p id="device-hint" class="device-hint" role="status" aria-live="polite">用手機開啟，為黑醬留一個小小的位置。</p>
+        </section>
+      </div>
+    </section>
+    <section class="pose-section" aria-label="選擇黑醬的樣子">
+      <div class="pose-heading"><span>換個樣子，陪著你。</span><span id="selected-pose">站在身邊</span></div>
+      <div id="pose-choices" class="pose-grid" aria-label="黑醬的六個樣子"></div>
+    </section>
+    <section class="closing" aria-label="給黑醬的想念"><span class="little-star" aria-hidden="true">✧</span><p>有些位置，一直為你留著。</p><span>黑醬，謝謝你來過我們的生命。</span></section>
+    <details class="help"><summary>第一次來，慢慢就好<span aria-hidden="true">＋</span></summary><div class="detail-body">
+      <p>先選一個黑醬的樣子，再用手機按「讓黑醬陪我一下」。允許使用相機，慢慢掃描地面，找一個想讓牠待著的位置。</p>
+      <p>牠會輕輕呼吸，偶爾偏偏頭、動動耳朵。什麼都不必做，就讓黑醬陪你待一會兒。</p>
+      <p>iPhone／iPad 請用 Safari。想換個樣子時，先關閉相機畫面，回到這裡重選，再讓黑醬來到身邊。Android 請用支援 AR 的 Chrome，進入後也可使用畫面上的選單。</p>
+      <p>黑醬可以旋轉與縮放，調到你覺得舒服的大小。這裡的尺寸是試看比例，並非實際量測。</p>
+      <div class="preview-tools"><button id="motion-toggle" class="quiet-button" aria-pressed="true" disabled>暫停預覽</button><button id="reset" class="quiet-button" disabled>重新看看牠</button></div>
+      <p class="fine">暫停只影響這個頁面。相機畫面使用模型內的循環動作；若裝置設定為減少動態，頁面會先暫停。動態檔案已檢查，實際手機呈現仍需試看確認。</p>
+      <div class="downloads"><a id="download-usdz" download>留下這個樣子 · iPhone／iPad ↓</a><a id="download-glb" download>留下這個樣子 · 其他裝置 ↓</a></div>
+      <span id="pose-height" hidden></span><p class="fine"><a href="model-viewer-LICENSE.txt">預覽元件授權</a></p>
+    </div></details>
+    <footer><span>黑醬 · 在身邊</span><span>給琦琦與蓓蓓的一份想念</span></footer>
+  </main>
+</body>
+</html>

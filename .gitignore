@@ -1,0 +1,16 @@
+# Large assets are archived in the private GitHub Release.
+*.glb
+*.usdz
+*.blend
+*.blend1
+*.npz
+*.zip
+*.pyc
+__pycache__/
+assets/references/
+downloads/
+.restore-stage/
+*.log
+.env
+.env.*
+.DS_Store

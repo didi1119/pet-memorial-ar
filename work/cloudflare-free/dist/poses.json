@@ -1,0 +1,1028 @@
+{
+  "version": 7,
+  "default_pose": "pose-01",
+  "pose_kind": "skeletal_ambient_idle",
+  "ar_device_verified": false,
+  "scale_assumption": "longest dimension about 0.46m, not measured physical dimensions",
+  "poses": [
+    {
+      "id": "pose-01",
+      "label": "站立",
+      "source_name": "domestic cat 3d model (1).glb",
+      "source_sha256": "fbd703aced53561675814b10e637c9ab00df4ea2d33ddde50cdff0c4e69ac1a3",
+      "height_m": 0.40256285667419434,
+      "triangles": 100000,
+      "assets": {
+        "glb": {
+          "sha256": "9428761f7c335bbb38d47a9e430c083aae6d8dc9505c99e6d411d55848495e88",
+          "bytes": 24331720
+        },
+        "usdz": {
+          "sha256": "53cb91b0fb3696113aff7c553793627863a21399465886977129d61a9b24846c",
+          "bytes": 24822832
+        },
+        "poster": {
+          "sha256": "754aff6b355cf289b26398cd3d29a1452d7b4aca12cb16269ab900eb18f90648",
+          "bytes": 42587
+        }
+      },
+      "glb": "poses/pose-01.9428761f7c33.glb",
+      "usdz": "poses/pose-01.53cb91b0fb36.usdz",
+      "poster": "poses/pose-01.754aff6b355c.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": true,
+        "max_displacement_mm": 7.7819044262459895,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6,
+          "ear_right_deg": 5.5,
+          "tail_deg": 6
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.9,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                5.984,
+                6.789,
+                7.5249999999999995,
+                8.882
+              ],
+              "yaw_degrees": 1.4400000000000002,
+              "lean_degrees": 1.35,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.8,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                18.95,
+                19.7,
+                21.075,
+                22.6125
+              ],
+              "yaw_degrees": 2.4000000000000004,
+              "lean_degrees": 0.0,
+              "raise_degrees": 0.8
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                1.7,
+                1.92,
+                1.96,
+                2.42
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                6.2025,
+                6.547499999999999,
+                6.628,
+                7.088
+              ],
+              "degrees": 4.95
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                6.513,
+                6.7775,
+                6.881,
+                7.295
+              ],
+              "degrees": 4.5
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.6,
+                11.83,
+                11.889999999999999,
+                12.379999999999999
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                19.1125,
+                19.4875,
+                20.1125,
+                21.05
+              ],
+              "degrees": 2.4000000000000004
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                19.2,
+                19.6,
+                20.2,
+                21.175
+              ],
+              "degrees": 2.2399999999999998
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.4,
+                26.639999999999997,
+                26.68,
+                27.2
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                29.2,
+                29.439999999999998,
+                29.47,
+                29.99
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-02",
+      "label": "側坐抬爪",
+      "source_name": "tabby cat 3d model (1).glb",
+      "source_sha256": "0da7fe6a2f3efd7fdd8bd7fde477bf128e38cc55ebf8004b1f28a6d5fed1f898",
+      "height_m": 0.361626535654068,
+      "triangles": 100000,
+      "assets": {
+        "glb": {
+          "sha256": "df2c7cb329825bd4061341a91966a9e0c2c2f45c0ac913f034b4c45217d8b3a8",
+          "bytes": 12734576
+        },
+        "usdz": {
+          "sha256": "284dff5d339b2d2eea57c749583c00338ab978e53c351a743a99d58687dcaa87",
+          "bytes": 14233905
+        },
+        "poster": {
+          "sha256": "a81b92de78ee3afed0563b642085292672b7d8602c9a98fa82a224c660b8e086",
+          "bytes": 40215
+        }
+      },
+      "glb": "poses/pose-02.df2c7cb32982.glb",
+      "usdz": "poses/pose-02.284dff5d339b.usdz",
+      "poster": "poses/pose-02.a81b92de78ee.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": false,
+        "max_displacement_mm": 9.412622967799443,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6.0,
+          "ear_right_deg": 5.5,
+          "tail_deg": 0
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                4.884,
+                5.689,
+                6.425,
+                7.782
+              ],
+              "yaw_degrees": 1.36,
+              "lean_degrees": 1.275,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                20.65,
+                21.4,
+                22.775,
+                24.3125
+              ],
+              "yaw_degrees": 2.8899999999999997,
+              "lean_degrees": 0.0,
+              "raise_degrees": 1.53
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                1.9,
+                2.12,
+                2.16,
+                2.62
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                5.1025,
+                5.4475,
+                5.5280000000000005,
+                5.988
+              ],
+              "degrees": 4.675
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                5.413,
+                5.6775,
+                5.781000000000001,
+                6.195
+              ],
+              "degrees": 4.25
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.799999999999999,
+                12.03,
+                12.089999999999998,
+                12.579999999999998
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                20.8125,
+                21.1875,
+                21.8125,
+                22.75
+              ],
+              "degrees": 2.55
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                20.9,
+                21.3,
+                21.9,
+                22.875
+              ],
+              "degrees": 2.38
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.599999999999998,
+                26.839999999999996,
+                26.88,
+                27.4
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                29.4,
+                29.639999999999997,
+                29.669999999999998,
+                30.189999999999998
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-03",
+      "label": "端坐",
+      "source_name": "tabby cat 3d model (2).glb",
+      "source_sha256": "d7c20671c02de57608fc848a97cb0794922abd58d2974bccb5e2198ff77aa591",
+      "height_m": 0.45996129512786865,
+      "triangles": 99999,
+      "assets": {
+        "glb": {
+          "sha256": "4e6ebabf08ba1a28a1d35417430b7d0f188fbde9e97b5b07c5935ec81cbdc7e7",
+          "bytes": 12680880
+        },
+        "usdz": {
+          "sha256": "0fbcd075ba4599d7483dec78ed9829a112665c19af5de9fbec122b1b6384fb63",
+          "bytes": 14130234
+        },
+        "poster": {
+          "sha256": "01df050196ccfa55db2fcc8369138b22bc54387d45943dd70c7afc7eaafb75c8",
+          "bytes": 46443
+        }
+      },
+      "glb": "poses/pose-03.4e6ebabf08ba.glb",
+      "usdz": "poses/pose-03.0fbcd075ba45.usdz",
+      "poster": "poses/pose-03.01df050196cc.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": false,
+        "max_displacement_mm": 8.832350534569276,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6.0,
+          "ear_right_deg": 5.5,
+          "tail_deg": 0
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.9,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                7.384,
+                8.189,
+                8.925,
+                10.282
+              ],
+              "yaw_degrees": 1.4400000000000002,
+              "lean_degrees": 1.35,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                17.349999999999998,
+                18.099999999999998,
+                19.474999999999998,
+                21.0125
+              ],
+              "yaw_degrees": 2.8899999999999997,
+              "lean_degrees": 0.0,
+              "raise_degrees": 1.53
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                1.55,
+                1.77,
+                1.81,
+                2.27
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                7.6025,
+                7.9475,
+                8.028,
+                8.488
+              ],
+              "degrees": 4.95
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                7.913,
+                8.1775,
+                8.281,
+                8.695
+              ],
+              "degrees": 4.5
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.45,
+                11.68,
+                11.739999999999998,
+                12.229999999999999
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                17.5125,
+                17.8875,
+                18.5125,
+                19.45
+              ],
+              "degrees": 2.55
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                17.599999999999998,
+                18.0,
+                18.599999999999998,
+                19.575
+              ],
+              "degrees": 2.38
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.25,
+                26.49,
+                26.53,
+                27.05
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                29.05,
+                29.29,
+                29.32,
+                29.84
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-04",
+      "label": "收腳趴臥",
+      "source_name": "tabby cat 3d model.glb",
+      "source_sha256": "5956d6cb411e2292a34aeabdfbc2f65555cead3541755128f6145f48c57db9c5",
+      "height_m": 0.38361844420433044,
+      "triangles": 100000,
+      "assets": {
+        "glb": {
+          "sha256": "d338e0ee95f712df86b35108dc8fb4c24808e31189b85edcb4e06cf7a8bdc76e",
+          "bytes": 12668136
+        },
+        "usdz": {
+          "sha256": "fde9cf5098311ffd23c9cb66da200db0f60e8340b8f580749a9ec918df49abe0",
+          "bytes": 14035738
+        },
+        "poster": {
+          "sha256": "4c00557cff6a0ec83f8a13efe2a84c76bba713b26d2f943c285664e7b76ec5b7",
+          "bytes": 44330
+        }
+      },
+      "glb": "poses/pose-04.d338e0ee95f7.glb",
+      "usdz": "poses/pose-04.fde9cf509831.usdz",
+      "poster": "poses/pose-04.4c00557cff6a.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": false,
+        "max_displacement_mm": 8.450881735131949,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6.0,
+          "ear_right_deg": 5.5,
+          "tail_deg": 0
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                5.5840000000000005,
+                6.389,
+                7.125,
+                8.482
+              ],
+              "yaw_degrees": 1.36,
+              "lean_degrees": 1.275,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.82,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                22.15,
+                22.9,
+                24.275,
+                25.8125
+              ],
+              "yaw_degrees": 2.788,
+              "lean_degrees": 0.0,
+              "raise_degrees": 1.476
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                2.05,
+                2.27,
+                2.3099999999999996,
+                2.7699999999999996
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                5.8025,
+                6.1475,
+                6.228000000000001,
+                6.688000000000001
+              ],
+              "degrees": 4.675
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                6.113,
+                6.3775,
+                6.481,
+                6.8950000000000005
+              ],
+              "degrees": 4.25
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.95,
+                12.18,
+                12.239999999999998,
+                12.729999999999999
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                22.3125,
+                22.6875,
+                23.3125,
+                24.25
+              ],
+              "degrees": 2.46
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                22.4,
+                22.8,
+                23.4,
+                24.375
+              ],
+              "degrees": 2.296
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.75,
+                26.99,
+                27.03,
+                27.55
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                29.55,
+                29.79,
+                29.82,
+                30.34
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-05",
+      "label": "坐姿舉爪",
+      "source_name": "bengal cat 3d model (1).glb",
+      "source_sha256": "4f29c28d8b590f90e570860ae8b9dcc0c092d258fb74fc336aed505dd20d1cf2",
+      "height_m": 0.4600091278553009,
+      "triangles": 99999,
+      "assets": {
+        "glb": {
+          "sha256": "a4b5d268f57bca80dd07ab0513cb98964e8d48d2de325ed8e3ad1834a6929f59",
+          "bytes": 12049712
+        },
+        "usdz": {
+          "sha256": "07112174a57518e0ce3968106e9244d081adf9ab02da84096ff65c9c7b2702eb",
+          "bytes": 13488466
+        },
+        "poster": {
+          "sha256": "0c7559f3ff785754898d0365f7bc5c761f49c6b4a88aef54ad8711a4503f1be4",
+          "bytes": 40462
+        }
+      },
+      "glb": "poses/pose-05.a4b5d268f57b.glb",
+      "usdz": "poses/pose-05.07112174a575.usdz",
+      "poster": "poses/pose-05.0c7559f3ff78.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": false,
+        "max_displacement_mm": 8.837593383921615,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6.0,
+          "ear_right_deg": 5.5,
+          "tail_deg": 0
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.88,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                8.283999999999999,
+                9.088999999999999,
+                9.825,
+                11.181999999999999
+              ],
+              "yaw_degrees": 1.4080000000000001,
+              "lean_degrees": 1.32,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                19.75,
+                20.5,
+                21.875,
+                23.4125
+              ],
+              "yaw_degrees": 2.8899999999999997,
+              "lean_degrees": 0.0,
+              "raise_degrees": 1.53
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                1.45,
+                1.67,
+                1.71,
+                2.17
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                8.5025,
+                8.8475,
+                8.927999999999999,
+                9.388
+              ],
+              "degrees": 4.84
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                8.812999999999999,
+                9.077499999999999,
+                9.181,
+                9.594999999999999
+              ],
+              "degrees": 4.4
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.35,
+                11.58,
+                11.639999999999999,
+                12.129999999999999
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                19.9125,
+                20.2875,
+                20.9125,
+                21.85
+              ],
+              "degrees": 2.55
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                20.0,
+                20.400000000000002,
+                21.0,
+                21.975
+              ],
+              "degrees": 2.38
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.15,
+                26.389999999999997,
+                26.43,
+                26.95
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                28.95,
+                29.189999999999998,
+                29.22,
+                29.74
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-06",
+      "label": "伸懶腰",
+      "source_name": "bengal cat 3d model.glb",
+      "source_sha256": "948d26b0c83281c805f93a57a89af76a985e7152d6ef1192d0cb17b1f333626e",
+      "height_m": 0.3952811360359192,
+      "triangles": 100000,
+      "assets": {
+        "glb": {
+          "sha256": "422cc06f379688a4244dee8639415349886ca208401a78ed8cb6ef6f49fb2432",
+          "bytes": 11591952
+        },
+        "usdz": {
+          "sha256": "2d00995c0e0a1eaca021d9c563bfdbbf5a31afe8c5f3f0f0f0386ea85577ffa4",
+          "bytes": 13443391
+        },
+        "poster": {
+          "sha256": "025e384ae786628cb107b8fa04e17d6b8cc699882512574dde68032fd9207632",
+          "bytes": 36319
+        }
+      },
+      "glb": "poses/pose-06.422cc06f3796.glb",
+      "usdz": "poses/pose-06.2d00995c0e0a.usdz",
+      "poster": "poses/pose-06.025e384ae786.jpg",
+      "animation": {
+        "name": "Idle",
+        "duration_seconds": 32,
+        "breathing": true,
+        "head_microturn": true,
+        "ear_flicks": true,
+        "tail_sway": true,
+        "max_displacement_mm": 7.5509672131260235,
+        "floor_displacement_mm": 0,
+        "loop_endpoint_displacement_mm": 0,
+        "amplitudes": {
+          "chest_width_pct": 3.2,
+          "chest_height_pct": 1.6,
+          "head_deg": 3.5,
+          "ear_left_deg": 6.0,
+          "ear_right_deg": 5.5,
+          "tail_deg": 6.0
+        },
+        "spontaneous_head_gestures": true,
+        "spontaneous_ear_gestures": true,
+        "head_blending": "approved_shapes_convex_blend",
+        "schedule": {
+          "head_events": [
+            {
+              "shape_source": "Pet",
+              "strength_fraction": 0.9,
+              "time_stretch": 1.15,
+              "envelope_seconds": [
+                6.684,
+                7.489,
+                8.225,
+                9.582
+              ],
+              "yaw_degrees": 1.4400000000000002,
+              "lean_degrees": 1.35,
+              "raise_degrees": 0.0
+            },
+            {
+              "shape_source": "Call",
+              "strength_fraction": 0.85,
+              "time_stretch": 1.25,
+              "envelope_seconds": [
+                21.15,
+                21.9,
+                23.275,
+                24.8125
+              ],
+              "yaw_degrees": 2.8899999999999997,
+              "lean_degrees": 0.0,
+              "raise_degrees": 1.53
+            }
+          ],
+          "ear_events": [
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                1.8,
+                2.02,
+                2.06,
+                2.52
+              ],
+              "degrees": 4.2
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                6.9025,
+                7.2475,
+                7.328,
+                7.788
+              ],
+              "degrees": 4.95
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Pet",
+              "envelope_seconds": [
+                7.213,
+                7.4775,
+                7.5809999999999995,
+                7.995
+              ],
+              "degrees": 4.5
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                11.7,
+                11.93,
+                11.989999999999998,
+                12.479999999999999
+              ],
+              "degrees": 3.8
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                21.3125,
+                21.6875,
+                22.3125,
+                23.25
+              ],
+              "degrees": 2.55
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "Call",
+              "envelope_seconds": [
+                21.4,
+                21.8,
+                22.4,
+                23.375
+              ],
+              "degrees": 2.38
+            },
+            {
+              "bone": "EarLeft",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                26.5,
+                26.74,
+                26.78,
+                27.3
+              ],
+              "degrees": 4.6
+            },
+            {
+              "bone": "EarRight",
+              "shape_source": "spontaneous_ear",
+              "envelope_seconds": [
+                29.3,
+                29.54,
+                29.57,
+                30.09
+              ],
+              "degrees": 4.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "animation_name": "Idle",
+  "animation_duration_seconds": 32,
+  "motion_profile": "approved_amplitude_sparse_spontaneous_gestures",
+  "cat_name": "黑醬",
+  "automatic_motion": true
+}
