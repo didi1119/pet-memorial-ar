@@ -1,0 +1,13 @@
+{
+  "intro_files": {
+    "intro.js": "intro.ee74c90249bd.js",
+    "intro.css": "intro.8aff2df3fc26.css"
+  },
+  "icons": [
+    "icons/icon-180.png",
+    "icons/icon-192.png",
+    "icons/icon-512.png"
+  ],
+  "manifest": "manifest.webmanifest",
+  "models_and_poses_unchanged": true
+}
