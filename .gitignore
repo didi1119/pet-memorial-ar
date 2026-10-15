@@ -14,3 +14,8 @@ downloads/
 .env
 .env.*
 .DS_Store
+
+# 開場二版的算圖中間檔（可用 render.mjs / music.py 重新產生）
+work/heijiang-intro-v2/out/*
+!work/heijiang-intro-v2/out/score.mid
+work/heijiang-intro-v2/compare/*.mp4
