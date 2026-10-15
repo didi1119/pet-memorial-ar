@@ -27,6 +27,9 @@ const [mode, arg, a3, a4, a5] = process.argv.slice(2);
 const grab = async (expr) => Buffer.from((await page.evaluate(expr)).split(',')[1], 'base64');
 if (mode === 'test') {
   for (const name of arg.split(',')) await writeFile(join(ROOT, 'out', `test-${name}.png`), await grab(`window.drawTest(${JSON.stringify(name)})`));
+} else if (mode === 'clean') {
+  await page.evaluate(() => { window.NO_CAPTIONS = true; });
+  for (const t of arg.split(',').map(Number)) await writeFile(join(ROOT, 'out', `clean-${t.toFixed(2)}.png`), await grab(`window.frameAt(${t})`));
 } else if (mode === 'still') {
   for (const t of arg.split(',').map(Number)) await writeFile(join(ROOT, 'out', `still-${t.toFixed(2)}.png`), await grab(`window.frameAt(${t})`));
 } else if (mode === 'video') {

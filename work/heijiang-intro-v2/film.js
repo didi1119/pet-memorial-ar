@@ -59,12 +59,13 @@ function renderFilm(ctx, t) {
     }
   }
   // 字幕
-  for (const c of CAPTIONS) {
+  if (!window.NO_CAPTIONS) for (const c of CAPTIONS) {
     if (t < c.a - .1 || t > c.b + .1) continue;
     const a = Math.min(smooth(range(t, c.a, c.a + .7)), 1 - smooth(range(t, c.b - .5, c.b)));
     caption(ctx, c.text, a, easeOut(range(t, c.a, c.a + .9)), { dark: c.dark, y: c.y });
   }
   if (typeof window.drawTitle === 'function') window.drawTitle(ctx, t);
+  if (window.NO_CAPTIONS) return;
   // 底片顆粒
   ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = .07;
   const gi = Math.floor(t * 12) % 3; ctx.fillStyle = GRAIN[gi]; ctx.translate((gi * 173) % 512, (gi * 97) % 512); ctx.fillRect(-512, -512, W + 1024, H + 1024); ctx.restore();

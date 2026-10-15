@@ -39,6 +39,7 @@
       setTimeout(() => { o.remove(); document.documentElement.classList.remove('intro-open'); }, fast ? 500 : 1400);
     };
     o.querySelector('#intro-start').addEventListener('click', () => {
+      if (video.dataset.broken) { close(true); return; }
       gate.hidden = true; film.hidden = false;
       video.muted = false; video.currentTime = 0;
       const p = video.play();
@@ -49,7 +50,8 @@
     o.querySelector('#intro-skip-gate').addEventListener('click', () => close(true));
     o.querySelector('#intro-skip').addEventListener('click', () => close(true));
     video.addEventListener('ended', () => close(false));
-    video.addEventListener('error', () => close(true));
+    // 影片載入失敗：入口還是留著，點了直接進頁面
+    video.addEventListener('error', () => { if (film.hidden) video.dataset.broken = '1'; else close(true); });
     document.addEventListener('visibilitychange', () => { if (document.hidden && !film.hidden) video.pause(); else if (!document.hidden && !film.hidden && !closed) video.play().catch(() => {}); });
   }
 

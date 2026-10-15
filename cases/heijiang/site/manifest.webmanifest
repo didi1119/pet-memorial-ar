@@ -1,13 +1,13 @@
 {
   "name": "黑醬・在身邊",
   "short_name": "黑醬",
-  "description": "給琦琦與蓓蓓。想黑醬的時候，就來這裡。",
+  "description": "給琦琦。想黑醬的時候，就來這裡。",
   "lang": "zh-Hant",
   "start_url": "/",
   "scope": "/",
   "display": "minimal-ui",
-  "background_color": "#f4f0e9",
-  "theme_color": "#f4f0e9",
+  "background_color": "#f3ede3",
+  "theme_color": "#f3ede3",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -22,7 +22,7 @@
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icons/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
