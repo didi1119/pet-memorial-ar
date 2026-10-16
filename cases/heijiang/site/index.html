@@ -10,14 +10,14 @@
   <link rel="icon" type="image/png" href="icons/icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/icon-180.png">
-  <link rel="preload" href="fonts/wenkai-subset.da94d14f9620.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/wenkai-subset.2828baa78327.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="intro-v2.b3a3cfcb33b0.css">
   <script id="intro-gate">try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('intro-open');setTimeout(function(){if(!document.getElementById('intro'))document.documentElement.classList.remove('intro-open')},4000)}}catch(e){}</script>
-  <link rel="stylesheet" href="style.eabf03bef444.css">
+  <link rel="stylesheet" href="style.980622e5a211.css">
   <script type="module" src="model-viewer.min.283b06723846.js"></script>
   <script defer src="app.9f99a175f66d.js"></script>
   <script defer src="intro-v2.3dc7dac17d21.js"></script>
-  <script defer src="page.aaa2d67c3c79.js"></script>
+  <script defer src="page.6efbfd4daf70.js"></script>
 </head>
 <body>
   <main>
@@ -69,24 +69,34 @@
     <section class="companion-section" aria-labelledby="stage-title">
       <span id="stage-anchor" class="anchor"></span>
       <div class="section-head"><h2 id="stage-title">想牠的時候，就來這裡</h2><span>讓熟悉的身影，再靠近一點</span></div>
-      <div class="companion">
-        <section class="stage" aria-label="看看黑醬">
-          <model-viewer id="cat" loading="eager" reveal="auto" alt="黑醬，可以輕輕拖曳，從不同角度看看牠。" camera-controls camera-orbit="-45deg 78deg 105%" field-of-view="30deg" shadow-intensity="0.8" shadow-softness="1" environment-image="neutral" exposure="1" interaction-prompt="none" touch-action="pan-y" ar ar-modes="webxr quick-look" ar-placement="floor">
-            <span slot="ar-button" hidden></span><span slot="progress-bar"></span>
-            <div id="ar-switcher" class="ar-switcher" aria-label="換個樣子陪你" hidden></div>
-          </model-viewer>
-          <span id="load-status" class="load-status" role="status" aria-live="polite">黑醬正在靠近…</span>
-          <div id="error-panel" class="error-panel" hidden><p>黑醬的身影還沒有顯示出來。<br>我們再試一次，好嗎？</p><button id="reload" class="quiet-button">再試一次</button></div>
-        </section>
-        <div class="presence"><span class="presence-dot" aria-hidden="true"></span><span id="motion-status" role="status" aria-live="polite">等牠一下下…</span><span class="gesture">輕輕轉動，看看牠</span></div>
-        <section class="action" aria-label="讓黑醬來到身邊">
-          <button id="ar-button" class="primary" disabled><span id="ar-label">等黑醬準備好…</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
-          <p id="device-hint" class="device-hint" role="status" aria-live="polite">用手機開啟，為黑醬留一個小小的位置。</p>
-        </section>
-      </div>
-      <div class="pose-section" aria-label="選擇黑醬的樣子">
-        <div class="pose-heading"><span>換個樣子，陪著你。</span><span id="selected-pose">站在身邊</span></div>
-        <div id="pose-choices" class="pose-grid" aria-label="黑醬的六個樣子"></div>
+      <div class="ar-room">
+        <div class="room">
+          <div class="room-wall" aria-hidden="true">
+            <svg class="room-window" viewBox="0 0 200 240"><rect x="10" y="10" width="180" height="220" rx="90" ry="90" fill="#fbf7ef" stroke="#e4d8c8" stroke-width="6"/><path d="M100 14v212M14 120h172" stroke="#e4d8c8" stroke-width="5"/><circle cx="148" cy="64" r="13" fill="#f6e3b8"/></svg>
+            <svg class="room-sprig" viewBox="0 0 120 200"><path d="M60 196C58 150 62 100 70 40" fill="none" stroke="#9aa886" stroke-width="3" stroke-linecap="round"/><g fill="#b5c19e"><ellipse cx="46" cy="150" rx="16" ry="8" transform="rotate(-30 46 150)"/><ellipse cx="78" cy="128" rx="16" ry="8" transform="rotate(28 78 128)"/><ellipse cx="50" cy="100" rx="15" ry="7.5" transform="rotate(-34 50 100)"/><ellipse cx="82" cy="78" rx="14" ry="7" transform="rotate(30 82 78)"/><ellipse cx="62" cy="48" rx="12" ry="6" transform="rotate(-40 62 48)"/></g></svg>
+            <span class="room-light"></span>
+          </div>
+          <div class="room-floor" aria-hidden="true"><span class="room-rug"></span></div>
+          <section class="stage" aria-label="看看黑醬">
+            <model-viewer id="cat" loading="eager" reveal="auto" alt="黑醬，可以輕輕拖曳，從不同角度看看牠。" camera-controls camera-orbit="-45deg 78deg 105%" field-of-view="30deg" shadow-intensity="0.8" shadow-softness="1" environment-image="neutral" exposure="1" interaction-prompt="none" touch-action="pan-y" ar ar-modes="webxr quick-look" ar-placement="floor">
+              <span slot="ar-button" hidden></span><span slot="progress-bar"></span>
+              <div id="ar-switcher" class="ar-switcher" aria-label="換個樣子陪你" hidden></div>
+            </model-viewer>
+            <span id="load-status" class="load-status" role="status" aria-live="polite">黑醬正在靠近…</span>
+            <div id="error-panel" class="error-panel" hidden><p>黑醬的身影還沒有顯示出來。<br>我們再試一次，好嗎？</p><button id="reload" class="quiet-button">再試一次</button></div>
+          </section>
+          <div class="presence"><span class="presence-dot" aria-hidden="true"></span><span id="motion-status" role="status" aria-live="polite">等牠一下下…</span><span class="gesture">輕輕轉動，看看牠</span></div>
+        </div>
+        <div class="room-side">
+          <div class="pose-section" aria-label="選擇黑醬的樣子">
+            <div class="pose-heading"><span>換個樣子，陪著你</span><span id="selected-pose">站在身邊</span></div>
+            <div id="pose-choices" class="pose-grid" aria-label="黑醬的六個樣子"></div>
+          </div>
+          <section class="action" aria-label="讓黑醬來到身邊">
+            <button id="ar-button" class="primary" disabled><svg class="paw" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="15.5" rx="4.6" ry="3.8"/><ellipse cx="6.2" cy="10" rx="1.9" ry="2.4"/><ellipse cx="9.6" cy="6.6" rx="1.9" ry="2.5"/><ellipse cx="14.4" cy="6.6" rx="1.9" ry="2.5"/><ellipse cx="17.8" cy="10" rx="1.9" ry="2.4"/></svg><span id="ar-label">等黑醬準備好…</span></button>
+            <p id="device-hint" class="device-hint" role="status" aria-live="polite">用手機開啟，為黑醬留一個小小的位置。</p>
+          </section>
+        </div>
       </div>
     </section>
 

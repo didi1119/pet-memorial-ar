@@ -18,3 +18,15 @@
     }
   });
 })();
+
+/* 3D 黑醬載入前的灰底示意圖，在紙房間裡會變成一塊灰；藏起來，只留「黑醬正在靠近…」 */
+(() => {
+  const mv = document.getElementById('cat');
+  if (!mv || !window.customElements) return;
+  customElements.whenDefined('model-viewer').then(() => {
+    const root = mv.shadowRoot; if (!root || root.getElementById('hj-poster-style')) return;
+    const st = document.createElement('style'); st.id = 'hj-poster-style';
+    st.textContent = '#default-poster{background-image:none!important;background-color:transparent!important}';
+    root.appendChild(st);
+  });
+})();
