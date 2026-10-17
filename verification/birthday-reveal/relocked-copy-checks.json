@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://a-little-note.kobeyoga.workers.dev",
+    "status": 200,
+    "newCopy": true,
+    "locked": true
+  },
+  {
+    "url": "https://heijiang-always-here.pages.dev",
+    "status": 200,
+    "newCopy": true,
+    "locked": true
+  },
+  {
+    "path": "/hero.png",
+    "status": 403
+  },
+  {
+    "path": "/index.html",
+    "status": 403
+  },
+  {
+    "path": "/poses.json",
+    "status": 403
+  },
+  {
+    "path": "/take-heijiang-with-you.png",
+    "status": 403
+  }
+]

@@ -36,3 +36,9 @@ Pages `_worker.js`攔截全部路徑，使用D1記錄生日網站是否已揭曉
 - 已視覺檢查1440投影版、390手機版與等待頁，手機沒有水平溢出。
 - 正式線上：中性與原網址等待頁200，錯碼401，index／圖片／影片／模型／QR403；遠端revealed_scopes=0。沒有在正式站輸入正確密碼。
 - 實測紀錄與畫面在`verification/birthday-reveal/`。最後發布快照：`https://881f35ee.heijiang-always-here.pages.dev`，正式仍使用固定原網址。
+
+## 同日：入口文案調整及重新上鎖
+
+使用者測試後要求拿掉「一份心意」等文案，入口改為「祝福77／誕辰大壽」，保留即將揭曉與密碼輸入。Pages 部署 `3a0768de`；中性入口同步更新備用提示。
+
+已依授權清除正式 `birthday-2026` 的揭曉記錄與錯誤次數；查詢正式揭曉記錄為0。兩個正式入口皆200且顯示新文案，index／hero／poses.json／QR素材皆403；1440與390px實際瀏覽器檢查及截圖通過，13項Node測試通過。沒有輸入正式密碼；證據為 `verification/birthday-reveal/relocked-copy-checks.json` 與 `relocked-*.png`。

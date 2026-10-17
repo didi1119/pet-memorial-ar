@@ -9,6 +9,6 @@ export default {async fetch(request){
  if(request.method==='POST')headers.set('Origin',GIFT);
  const upstream=await fetch(new Request(GIFT+url.pathname,{method:request.method,headers,body:request.method==='POST'?request.body:undefined,redirect:'manual'}));
  if(upstream.status===303 || upstream.headers.get('X-Gift-Revealed')==='yes')return new Response(null,{status:303,headers:{Location:GIFT+'/', 'Cache-Control':'no-store'}});
- if(upstream.headers.get('X-Gift-Revealed')!=='no')return new Response('這份心意正在準備中。',{status:503,headers:{'Cache-Control':'no-store','Content-Type':'text/plain; charset=utf-8'}});
+ if(upstream.headers.get('X-Gift-Revealed')!=='no')return new Response('入口準備中，請稍後再試。',{status:503,headers:{'Cache-Control':'no-store','Content-Type':'text/plain; charset=utf-8'}});
  return upstream;
 }};
