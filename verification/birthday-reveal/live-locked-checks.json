@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://a-little-note.kobeyoga.workers.dev/",
+    "status": 200,
+    "neutral": true,
+    "noStore": true
+  },
+  {
+    "url": "https://a-little-note.kobeyoga.workers.dev/__reveal",
+    "wrongPasswordStatus": 401
+  },
+  {
+    "url": "https://heijiang-always-here.pages.dev/",
+    "status": 200,
+    "neutral": true,
+    "noStore": true
+  },
+  {
+    "url": "https://heijiang-always-here.pages.dev/__reveal",
+    "wrongPasswordStatus": 401
+  },
+  {
+    "path": "/index.html",
+    "status": 403
+  },
+  {
+    "path": "/hero.png",
+    "status": 403
+  },
+  {
+    "path": "/poses.json",
+    "status": 403
+  },
+  {
+    "path": "/story/01-night.jpg",
+    "status": 403
+  },
+  {
+    "path": "/take-heijiang-with-you.png",
+    "status": 403
+  },
+  {
+    "path": "/film/heijiang-film.4196f9503c64.mp4",
+    "status": 403
+  },
+  {
+    "path": "/poses/pose-01.53cb91b0fb36.usdz",
+    "status": 403
+  }
+]

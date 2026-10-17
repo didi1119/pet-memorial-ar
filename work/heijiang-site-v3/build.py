@@ -77,12 +77,15 @@ for d in ['story', 'icons', 'fonts']:
     if (SITE / d).exists(): shutil.rmtree(SITE / d)
 shutil.copytree(SRC / 'story', SITE / 'story')
 shutil.copytree(SRC / 'icons', SITE / 'icons')
+
+for qr_file in ['take-heijiang-with-you.png', 'take-heijiang-with-you.svg', 'take-heijiang-card.png']:
+    shutil.copyfile(SRC / qr_file, SITE / qr_file)
 shutil.copyfile(SRC / 'hero.png', SITE / 'hero.png'); shutil.copyfile(SRC / 'hero@1x.png', SITE / 'hero@1x.png')
 font = build_font(SITE / 'fonts')
 font_rel = f'fonts/{font.name}'
 
 names = {}
-for src in [V2 / 'site/intro-v2.js', V2 / 'site/intro-v2.css', SRC / 'page.js']:
+for src in [V2 / 'site/intro-v2.js', V2 / 'site/intro-v2.css', SRC / 'page.js', SRC / 'take-along.js', SRC / 'take-along.css']:
     n = hashed(src); shutil.copyfile(src, SITE / n); names[src.name] = n
 css = (SRC / 'style.css').read_text().replace('__FONT__', font_rel)
 tmpcss = SITE / 'style.css'; tmpcss.write_text(css); style_name = hashed(tmpcss); tmpcss.rename(SITE / style_name)
@@ -92,7 +95,7 @@ assert films, '需要先用 heijiang-intro-v2/build.py 放入影片'
 film_rel = f'film/{films[-1].name}'
 
 html = (SRC / 'index.html').read_text()
-for k, v in {'__FILM__': film_rel, '__FONT__': font_rel, '__INTRO_CSS__': names['intro-v2.css'], '__INTRO_JS__': names['intro-v2.js'], '__PAGE_JS__': names['page.js'], '__STYLE__': style_name}.items():
+for k, v in {'__FILM__': film_rel, '__FONT__': font_rel, '__INTRO_CSS__': names['intro-v2.css'], '__INTRO_JS__': names['intro-v2.js'], '__PAGE_JS__': names['page.js'], '__STYLE__': style_name, '__TAKE_ALONG_CSS__': names['take-along.css'], '__TAKE_ALONG_JS__': names['take-along.js']}.items():
     html = html.replace(k, v)
 (SITE / 'index.html').write_text(html)
 

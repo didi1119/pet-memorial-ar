@@ -19,3 +19,7 @@ downloads/
 work/heijiang-intro-v2/out/*
 !work/heijiang-intro-v2/out/score.mid
 work/heijiang-intro-v2/compare/*.mp4
+
+# Local reveal secrets and Cloudflare emulation
+.dev.vars*
+.wrangler/

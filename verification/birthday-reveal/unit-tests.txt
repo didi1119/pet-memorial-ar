@@ -1,0 +1,21 @@
+✔ unknown upstream must never expose the old birthday page (23.505709ms)
+✔ locked page is the only proxied body (0.30375ms)
+✔ revealed state only redirects to gift (0.442333ms)
+✔ foreign-origin submission is rejected (0.527041ms)
+✔ locked landing is neutral, no birthday/QR/assets/password leak (22.973459ms)
+✔ locked assets and alternate paths cannot bypass protection (1.089333ms)
+✔ wrong password keeps everyone locked (0.723584ms)
+✔ correct password releases once; a fresh device needs no cookie (1.040708ms)
+✔ cross-site POST cannot reveal (0.249625ms)
+✔ ten failed guesses rate limit the source (1.514083ms)
+✔ missing database/credentials fails closed (0.188041ms)
+✔ worker source and configuration never served even after release (0.187875ms)
+✔ gate permits browser same-origin form Origin rather than null (0.186292ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 91.1855

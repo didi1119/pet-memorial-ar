@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS reveal_state (id TEXT PRIMARY KEY, released_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS reveal_attempts (client TEXT PRIMARY KEY, count INTEGER NOT NULL, window_start INTEGER NOT NULL);

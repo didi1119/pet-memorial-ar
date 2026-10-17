@@ -1,0 +1,10 @@
+{
+  "name": "heijiang-always-here",
+  "pages_build_output_dir": "./cases/heijiang/site",
+  "compatibility_date": "2026-10-17",
+  "d1_databases": [{
+    "binding": "REVEAL_DB",
+    "database_name": "heijiang-birthday-reveal",
+    "database_id": "d7c46cc8-3bd8-4b5b-b9be-c221f04831f8"
+  }]
+}

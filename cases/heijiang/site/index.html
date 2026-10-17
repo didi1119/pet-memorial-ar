@@ -18,6 +18,8 @@
   <script defer src="app.9f99a175f66d.js"></script>
   <script defer src="intro-v2.3dc7dac17d21.js"></script>
   <script defer src="page.6efbfd4daf70.js"></script>
+  <link rel="stylesheet" href="take-along.a03d718e7e4f.css">
+  <script defer src="take-along.35e4fb3fd2db.js"></script>
 </head>
 <body>
   <main>
@@ -96,6 +98,11 @@
             <button id="ar-button" class="primary" disabled><svg class="paw" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="15.5" rx="4.6" ry="3.8"/><ellipse cx="6.2" cy="10" rx="1.9" ry="2.4"/><ellipse cx="9.6" cy="6.6" rx="1.9" ry="2.5"/><ellipse cx="14.4" cy="6.6" rx="1.9" ry="2.5"/><ellipse cx="17.8" cy="10" rx="1.9" ry="2.4"/></svg><span id="ar-label">等黑醬準備好…</span></button>
             <p id="device-hint" class="device-hint" role="status" aria-live="polite">用手機開啟，為黑醬留一個小小的位置。</p>
           </section>
+
+          <aside class="take-along" aria-labelledby="take-along-title">
+            <button type="button" class="qr-small" data-open-qr aria-label="放大 QR code，讓大家用手機開啟"><img src="take-heijiang-with-you.png" width="120" height="120" alt="用手機掃描，開啟黑醬生日頁面" loading="lazy"></button>
+            <div><span class="take-along-note">一 個 小 小 的 陪 伴</span><h3 id="take-along-title">把黑醬帶在身邊</h3><p>用手機掃一下，<br>想牠的時候，就來這裡。</p><button type="button" class="qr-expand" data-open-qr>放大，讓大家掃描 <span aria-hidden="true">↗</span></button></div>
+          </aside>
         </div>
       </div>
     </section>
@@ -163,5 +170,12 @@
     </div></details>
     <footer><span>黑醬 · 在身邊</span><span>給琦琦的生日禮物</span></footer>
   </main>
+
+  <dialog id="take-along-dialog" class="qr-dialog" aria-labelledby="qr-dialog-title">
+    <button class="qr-close" type="button" data-close-qr aria-label="收起 QR code">收起 <span aria-hidden="true">×</span></button>
+    <div class="qr-presentation"><div class="qr-print"><img src="take-heijiang-with-you.png" width="520" height="520" alt="掃描 QR code，用手機開啟黑醬生日頁面"><span>掃一下，把陪伴留在手機裡</span></div>
+    <div class="qr-message"><span class="take-along-note">黑 醬 · 在 身 邊</span><img class="qr-portrait" src="hero@1x.png" width="160" height="178" alt="琦琦、蓓蓓和黑醬"><h2 id="qr-dialog-title">把想念，<br>帶在身邊。</h2><p>換到你的手機，<br>讓黑醬陪你一下。</p><a href="take-heijiang-card.png" download="把黑醬帶在身邊-QR.png" class="qr-save">留下這張 QR code ↓</a></div></div>
+  </dialog>
+
 </body>
 </html>
